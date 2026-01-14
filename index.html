@@ -1,11 +1,204 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Harry Pincus</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Harry Pincus | Projects</title>
+  <meta name="description" content="Research projects and contributions by Harry Pincus." />
+
+  <style>
+    :root{
+      --max: 980px;
+      --text:#111;
+      --muted:#666;
+      --line:#eaeaea;
+      --bg:#fff;
+      --card:#fff;
+      --radius:14px;
+    }
+    * { box-sizing: border-box; }
+    body{
+      margin:0;
+      background:var(--bg);
+      color:var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, Arial, sans-serif;
+      line-height:1.55;
+    }
+    .wrap{ max-width:var(--max); margin:0 auto; padding:44px 20px 60px; }
+    header{ display:flex; justify-content:space-between; align-items:flex-end; gap:18px; flex-wrap:wrap; }
+    h1{ margin:0; font-size:34px; letter-spacing:-0.02em; }
+    .subtitle{ margin-top:8px; color:var(--muted); max-width: 70ch; }
+    .links a{
+      text-decoration:none;
+      color:var(--text);
+      border-bottom:1px solid var(--line);
+      margin-left:12px;
+      padding-bottom:2px;
+    }
+    .links a:hover{ border-bottom-color:#111; }
+    section{ margin-top:34px; }
+    h2{
+      margin:0 0 14px;
+      font-size:14px;
+      letter-spacing:0.12em;
+      text-transform:uppercase;
+      color:#222;
+    }
+    .grid{ display:grid; grid-template-columns: 1fr; gap:14px; }
+    @media (min-width: 880px){
+      .grid{ grid-template-columns: 1fr 1fr; }
+    }
+    .card{
+      background:var(--card);
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      padding:16px 16px 14px;
+    }
+    .card h3{ margin:0 0 6px; font-size:18px; }
+    .meta{ color:var(--muted); font-size:13px; margin-bottom:10px; }
+    .pills{ margin: 4px 0 10px; }
+    .pill{
+      display:inline-block;
+      font-size:12px;
+      padding:4px 10px;
+      border:1px solid var(--line);
+      border-radius:999px;
+      margin: 6px 6px 0 0;
+      color:#222;
+      white-space:nowrap;
+    }
+    ul{ margin: 8px 0 0 18px; }
+    li{ margin: 6px 0; }
+    .muted{ color:var(--muted); }
+    footer{ margin-top:44px; padding-top:18px; border-top:1px solid var(--line); color:var(--muted); font-size:13px; }
+  </style>
 </head>
+
 <body>
-  <h1>Harry Pincus</h1>
-  <p>Portfolio coming soon.</p>
+  <div class="wrap">
+    <header>
+      <div>
+        <h1>Harry Pincus</h1>
+        <div class="subtitle">
+          Undergraduate researcher (Psychological & Brain Sciences, UCSB). I contribute to behavioral and EEG research and run an independent project on subconscious priming and athletic performance.
+        </div>
+      </div>
+      <div class="links">
+        <!-- Replace with your real links whenever you want -->
+        <a href="mailto:harrypincus@icloud.com or pincus@ucsb.edu">Email</a>
+        <a href="https://www.linkedin.com/in/harry-pincus-45babb238/">LinkedIn</a>
+        <a href="https://github.com/harrypincus">GitHub</a>
+      </div>
+    </header>
+
+    <section>
+      <h2>Projects</h2>
+
+      <div class="grid">
+
+        <!-- Danny Lim's Research -->
+        <div class="card">
+          <h3>Danny Lim — Research Project</h3>
+          <div class="meta">Contributor · Behavioral / cognitive research</div>
+          <div class="pills">
+            <span class="pill">Study Operations</span>
+            <span class="pill">Data Quality</span>
+            <span class="pill">Literature Support</span>
+          </div>
+          <ul>
+            <li><strong>Focus:</strong> <span class="muted">Add 1 sentence describing the core question (what the study is about).</span></li>
+            <li><strong>My contribution:</strong> <span class="muted">Add 1–2 bullets (e.g., running participants, organizing datasets, coding, analysis support).</span></li>
+            <li><strong>Methods:</strong> <span class="muted">Behavioral task / survey / interviews / etc.</span></li>
+            <li><strong>Status:</strong> <span class="muted">Ongoing.</span></li>
+          </ul>
+        </div>
+
+        <!-- Mariana Torres Social Research -->
+        <div class="card">
+          <h3>Mariana Torres — Social Research</h3>
+          <div class="meta">Contributor · Social perception / behavior</div>
+          <div class="pills">
+            <span class="pill">Stimuli & Surveys</span>
+            <span class="pill">Participant Ops</span>
+            <span class="pill">Reporting</span>
+          </div>
+          <ul>
+            <li><strong>Focus:</strong> <span class="muted">Add 1 sentence on the social question (e.g., judgments, bias, social inference).</span></li>
+            <li><strong>My contribution:</strong> <span class="muted">Add your role (task setup, recruitment, data cleaning, etc.).</span></li>
+            <li><strong>Methods:</strong> <span class="muted">Surveys / experimental manipulations / behavioral measures.</span></li>
+            <li><strong>Status:</strong> <span class="muted">Ongoing.</span></li>
+          </ul>
+        </div>
+
+        <!-- Harry Pincus Priming Research -->
+        <div class="card">
+          <h3>Harry Pincus — Subconscious Priming & Sprint Performance</h3>
+          <div class="meta">Independent project (URCA-style) · Experimental design</div>
+          <div class="pills">
+            <span class="pill">Within-Subjects</span>
+            <span class="pill">Counterbalancing</span>
+            <span class="pill">Athletic Performance</span>
+          </div>
+          <ul>
+            <li><strong>Focus:</strong> Test whether speed-related subconscious primes increase sprint performance compared to neutral/slow/no-prime conditions.</li>
+            <li><strong>My contribution:</strong> End-to-end design (protocol, materials, data plan, ethics considerations), plus analysis plan and write-up.</li>
+            <li><strong>Methods:</strong> Timed sprints, controlled prime conditions, awareness checks, fatigue ratings.</li>
+            <li><strong>Status:</strong> Ongoing (protocol + implementation).</li>
+          </ul>
+        </div>
+
+        <!-- Diego's Research -->
+        <div class="card">
+          <h3>Diego — Research Project</h3>
+          <div class="meta">Contributor · (add area: cognition / perception / EEG / etc.)</div>
+          <div class="pills">
+            <span class="pill">Research Support</span>
+            <span class="pill">Data Prep</span>
+            <span class="pill">Methods</span>
+          </div>
+          <ul>
+            <li><strong>Focus:</strong> <span class="muted">Add 1 sentence describing the main research question.</span></li>
+            <li><strong>My contribution:</strong> <span class="muted">Add your concrete tasks (pipelines, cleaning, running sessions, etc.).</span></li>
+            <li><strong>Methods:</strong> <span class="muted">Add methods/tools.</span></li>
+            <li><strong>Status:</strong> <span class="muted">Ongoing.</span></li>
+          </ul>
+        </div>
+
+        <!-- Mariana Torres EEG Research -->
+        <div class="card">
+          <h3>Mariana Torres — EEG Research</h3>
+          <div class="meta">Contributor · EEG methods and preprocessing</div>
+          <div class="pills">
+            <span class="pill">EEG</span>
+            <span class="pill">Preprocessing</span>
+            <span class="pill">Experimental Tasks</span>
+          </div>
+          <ul>
+            <li><strong>Focus:</strong> <span class="muted">Add 1 sentence on the EEG question (what signals/behavior it links to).</span></li>
+            <li><strong>My contribution:</strong> <span class="muted">Setup/runs, preprocessing help, organizing data, QA checks, etc.</span></li>
+            <li><strong>Methods:</strong> <span class="muted">EEG recording + preprocessing pipeline (tool names if you want).</span></li>
+            <li><strong>Status:</strong> <span class="muted">Ongoing.</span></li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <section>
+      <h2>About</h2>
+      <p class="muted">
+        I’m interested in how perception and social context shape behavior, and how careful experimental design can translate into clear, testable conclusions.
+        This site is a living record of projects I’m contributing to and the skills I’m building along the way.
+      </p>
+    </section>
+
+    <footer>
+      © <span id="y"></span> Harry Pincus · Built with GitHub Pages
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
