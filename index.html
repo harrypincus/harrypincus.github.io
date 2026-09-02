@@ -3,75 +3,9 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Harry Pincus | Projects</title>
-  <meta name="description" content="Research projects and contributions by Harry Pincus." />
-
-  <style>
-    :root{
-      --max: 980px;
-      --text:#111;
-      --muted:#666;
-      --line:#eaeaea;
-      --bg:#fff;
-      --card:#fff;
-      --radius:14px;
-    }
-    * { box-sizing: border-box; }
-    body{
-      margin:0;
-      background:var(--bg);
-      color:var(--text);
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, Arial, sans-serif;
-      line-height:1.55;
-    }
-    .wrap{ max-width:var(--max); margin:0 auto; padding:44px 20px 60px; }
-    header{ display:flex; justify-content:space-between; align-items:flex-end; gap:18px; flex-wrap:wrap; }
-    h1{ margin:0; font-size:34px; letter-spacing:-0.02em; }
-    .subtitle{ margin-top:8px; color:var(--muted); max-width: 70ch; }
-    .links a{
-      text-decoration:none;
-      color:var(--text);
-      border-bottom:1px solid var(--line);
-      margin-left:12px;
-      padding-bottom:2px;
-    }
-    .links a:hover{ border-bottom-color:#111; }
-    section{ margin-top:34px; }
-    h2{
-      margin:0 0 14px;
-      font-size:14px;
-      letter-spacing:0.12em;
-      text-transform:uppercase;
-      color:#222;
-    }
-    .grid{ display:grid; grid-template-columns: 1fr; gap:14px; }
-    @media (min-width: 880px){
-      .grid{ grid-template-columns: 1fr 1fr; }
-    }
-    .card{
-      background:var(--card);
-      border:1px solid var(--line);
-      border-radius:var(--radius);
-      padding:16px 16px 14px;
-    }
-    .card h3{ margin:0 0 6px; font-size:18px; }
-    .meta{ color:var(--muted); font-size:13px; margin-bottom:10px; }
-    .pills{ margin: 4px 0 10px; }
-    .pill{
-      display:inline-block;
-      font-size:12px;
-      padding:4px 10px;
-      border:1px solid var(--line);
-      border-radius:999px;
-      margin: 6px 6px 0 0;
-      color:#222;
-      white-space:nowrap;
-    }
-    ul{ margin: 8px 0 0 18px; }
-    li{ margin: 6px 0; }
-    .muted{ color:var(--muted); }
-    footer{ margin-top:44px; padding-top:18px; border-top:1px solid var(--line); color:var(--muted); font-size:13px; }
-  </style>
+  <title>Harry Pincus | Research</title>
+  <meta name="description" content="Research and projects by Harry Pincus — UCSB Psychology & Brain Sciences." />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
@@ -80,107 +14,82 @@
       <div>
         <h1>Harry Pincus</h1>
         <div class="subtitle">
-          Undergraduate researcher (Psychological & Brain Sciences, UCSB). I contribute to behavioral and EEG research and run an independent project on subconscious priming and athletic performance.
+          Undergraduate researcher (Psychology & Brain Sciences, UCSB). I work across three university research labs and a facial-analysis research internship at QOVES in London — spanning eye-tracking, EEG/fMRI, and applied consumer research.
         </div>
       </div>
       <div class="links">
-        <!-- Replace with your real links whenever you want -->
-        <a href="mailto:harrypincus@icloud.com or pincus@ucsb.edu">Email</a>
+        <a href="mailto:harrypincus@icloud.com">Email</a>
         <a href="https://www.linkedin.com/in/harry-pincus-45babb238/">LinkedIn</a>
         <a href="https://github.com/harrypincus">GitHub</a>
       </div>
     </header>
 
     <section>
-      <h2>Projects</h2>
+      <h2>Experience</h2>
 
       <div class="grid">
 
-        <!-- Danny Lim's Research -->
-        <div class="card">
-          <h3>Danny Lim — Research Project</h3>
-          <div class="meta">Contributor · Behavioural / cognitive research</div>
+        <a class="card" href="projects/qoves.html">
+          <h3>QOVES — Research Intern</h3>
+          <div class="meta">London, England · Industry · Aug 2026 – Present</div>
           <div class="pills">
-            <span class="pill">Study Operations</span>
-            <span class="pill">Data Quality</span>
-            <span class="pill">Literature Support</span>
+            <span class="pill">Facial Analysis</span>
+            <span class="pill">Data Analysis</span>
+            <span class="pill">Consumer Research</span>
           </div>
           <ul>
-            <li>Conducted in-lab experimental sessions using eye tracking and psychophysical visual working memory tasks.</li>
-            <li>Ran participant calibration, task demonstrations, and full experimental protocols with strict data-quality thresholds.</li>
-            <li>Logged behavioral and eye-tracking metrics, monitored trial validity, and documented anomalies during data collection.</li>
-            <li>Contributed to data organization and integrity checks in preparation for downstream analysis.</li>
+            <li>Data analysis, product research, and literature synthesis at a consumer AI facial-analysis company.</li>
+            <li>Led a cross-country research initiative on cosmetic surgery and beauty-spending patterns.</li>
+            <li>Contributing to an academic preprint comparing AI and human attractiveness ratings.</li>
           </ul>
-        </div>
+          <div class="view-more">View details →</div>
+        </a>
 
-        <!-- Mariana Torres Social Research -->
-        <div class="card">
-          <h3>Mariana Torres — Stereotype Research</h3>
-          <div class="meta">Contributor · Social perception / behaviour</div>
+        <a class="card" href="projects/nyu-balcetis-lab.html">
+          <h3>NYU — Social Perception and Motivation Lab</h3>
+          <div class="meta">Dr. Balcetis · New York, NY · May 2026 – Present</div>
           <div class="pills">
-            <span class="pill">Stimuli & Surveys</span>
-            <span class="pill">Participant Ops</span>
-            <span class="pill">Reporting</span>
+            <span class="pill">Eye-Tracking</span>
+            <span class="pill">Social Media Research</span>
+            <span class="pill">Outreach</span>
           </div>
           <ul>
-            <li><strong>Focus:</strong> Examines how social identity threat and stereotype-relevant framing shape emotional responses and task engagement (e.g., persistence and performance) in evaluative contexts.</li>
-            <li><strong>My contribution:</strong> Ran a large number of participants during data collection, administering the protocol consistently across conditions and ensuring high-quality behavioral data (timing, instructions, and compliance).</li>
-            <li><strong>Methods:</strong> Lab-based experimental manipulation (stereotype threat / identity-relevant framing) paired with self-report measures and performance outcomes.</li>
-            <li><strong>Status:</strong> Data collection completed; analysis/write-up in progress.</li>
+            <li>Eye-tracking study on food-advertising attention, part of a new lab research programme.</li>
+            <li>Secured Meta's approval for the lab's social-media advertising study.</li>
+            <li>Lead a high-school psychology outreach workshop at NYU's Silver Center.</li>
           </ul>
-        </div>
+          <div class="view-more">View details →</div>
+        </a>
 
-        <!-- Harry Pincus Priming Research -->
-        <div class="card">
-          <h3>Harry Pincus — Subconscious Priming & Athletic Performance</h3>
-          <div class="meta">Independent project · Experimental design</div>
+        <a class="card" href="projects/ratner-lab.html">
+          <h3>UCSB — Social Perception Lab</h3>
+          <div class="meta">Dr. Ratner · Santa Barbara, CA · Sept 2025 – Present</div>
           <div class="pills">
-            <span class="pill">Within-Subjects</span>
-            <span class="pill">Counterbalancing</span>
-            <span class="pill">Athletic Performance</span>
+            <span class="pill">Intergroup Bias</span>
+            <span class="pill">Facial Perception</span>
+            <span class="pill">Independent Project</span>
           </div>
           <ul>
-            <li><strong>Focus:</strong> Test whether speed-related subconscious primes increase sprint performance compared to neutral/slow/no-prime conditions.</li>
-            <li><strong>My contribution:</strong> End-to-end design (protocol, materials, data plan, ethics considerations), plus analysis plan and write-up.</li>
-            <li><strong>Methods:</strong> Timed sprints, controlled prime conditions, awareness checks, fatigue ratings.</li>
-            <li><strong>Status:</strong> Completed; Extended Analysis and Follow-Up Study in Development (protocol + implementation).</li>
+            <li>Behavioural research on intergroup bias, facial perception, and social categorization.</li>
+            <li>Leading an independent, mentored project on subconscious priming and athletic performance (URCA grant under review).</li>
           </ul>
-        </div>
+          <div class="view-more">View details →</div>
+        </a>
 
-        <!-- Mariana Torres EEG Research -->
-        <div class="card">
-          <h3>Mariana Torres — EEG Research</h3>
-          <div class="meta">Contributor · EEG methods and preprocessing</div>
+        <a class="card" href="projects/sprague-lab.html">
+          <h3>UCSB — Perception, Cognition, and Action Lab</h3>
+          <div class="meta">Dr. Sprague · Santa Barbara, CA · Sept 2025 – Present</div>
           <div class="pills">
-            <span class="pill">EEG</span>
-            <span class="pill">Preprocessing</span>
-            <span class="pill">Experimental Tasks</span>
+            <span class="pill">fMRI / EEG</span>
+            <span class="pill">Working Memory</span>
+            <span class="pill">Computational Modeling</span>
           </div>
           <ul>
-            <li><strong>Focus:</strong> Preparation for EEG research examining neural correlates of perception and social-cognitive processes.</li>
-            <li><strong>My contribution:</strong> Onboarding and training phase, including learning EEG setup procedures, experimental protocols, and data-quality standards.</li>
-            <li><strong>Methods:</strong> EEG acquisition and preprocessing workflows (training stage).</li>
-            <li><strong>Status:</strong> Project initiation and training underway.</li>
+            <li>Visual perception, cognitive processing, and motor decision-making via fMRI/EEG.</li>
+            <li>Data preprocessing pipelines and computational modeling of neural representations.</li>
           </ul>
-        </div>
-
-        <!-- Diego's Research -->
-        <div class="card">
-          <h3>Diego Padilla-Garcia — Behavioural Research </h3>
-          <div class="meta">Contributor · Behavioural and Cognitive Research</div>
-          <div class="pills">
-            <span class="pill">Behavioral Experiments</span>
-            <span class="pill">Participant Operations</span>
-            <span class="pill">Data Quality</span>
-
-          </div>
-          <ul>
-            <li><strong>Focus:</strong> Behavioral study examining memory and performance under controlled experimental conditions using computerized tasks.</li>
-            <li><strong>My contribution:</strong> Ran in-lab participant sessions following a standardized protocol, including participant intake, consent procedures, task setup, and monitoring for compliance.</li>
-            <li><strong>Methods:</strong> Qualtrics-based behavioral tasks administered in a controlled lab setting with strict procedural and data-quality checks.</li>
-            <li><strong>Status:</strong> Data collection ongoing.</li>
-          </ul>
-        </div>
+          <div class="view-more">View details →</div>
+        </a>
 
       </div>
     </section>
@@ -188,8 +97,10 @@
     <section>
       <h2>About</h2>
       <p class="muted">
-        I’m interested in how perception and social context shape behavior, and how careful experimental design can translate into clear, testable conclusions.
-        This site is a living record of projects I’m contributing to and the skills I’m building along the way.
+        I'm interested in how perception and social context shape behavior, and how careful experimental design
+        translates into clear, testable conclusions — both in academic research and in applied, consumer-facing
+        settings. This site is a living record of the projects I'm contributing to and the skills I'm building
+        along the way.
       </p>
     </section>
 
